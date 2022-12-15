@@ -13,17 +13,17 @@ namespace confe
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Curriculum : ContentPage
 	{
-		public Curriculum (string name, string ocupation, string birthday, string email, 
-						string phone, string nacionalidad, string level, string perfil)
+		public Curriculum (string nombre, string ocupacion, string cumple, string email, 
+						string telefono, string nacionalidad, string nivel, string perfil)
 		{
 			InitializeComponent ();
-            F_nombre.Text = name;
-            F_ocupacion.Text = ocupation;
-            F_edad.Text = "|| " + birthday + " || " + name;
+            F_nombre.Text = nombre;
+            F_ocupacion.Text = ocupacion;
+            F_edad.Text = "|| " + cumple + " || " + nombre;
 			F_email.Text = "E-mail: " + email;
-			F_telefono.Text = "Telefono: " + phone;
+			F_telefono.Text = "Telefono: " + telefono;
 			F_pais.Text = "Nacionalidad: " + nacionalidad;
-			F_level.Text = "Ingles: " + level;
+			F_level.Text = "Ingles: " + nivel;
 			F_perfil.Text = perfil;
         }
 
