@@ -12,14 +12,14 @@
                 <Label x:Name="F_nombre"
                        FontAttributes="Italic"
                        HorizontalOptions="Center"
-                       FontSize="40"
-                       TextColor="White"/>
+                       FontSize="20"
+                       TextColor="Black"/>
                 <Label x:Name="F_ocupacion"
                        HorizontalOptions="Center"
-                       FontSize="20"
-                       TextColor="White"/>
+                       FontSize="10"
+                       TextColor="Black"/>
             </StackLayout>
-            <Frame BackgroundColor="Bisque"
+            <Frame BackgroundColor="Azure"
                    Margin="20"
                    CornerRadius="20"
                    HasShadow="False">
@@ -37,28 +37,28 @@
                         <StackLayout>
                             <Label Text="Español: Nativo"/>
                             <Label x:Name="F_level"/>
-                            <Label Text="Frances: Intermedio (B2)"/>
+                            <Label Text="Ingles: Avanzado (C1)"/>
                         </StackLayout>
                     </Frame>
                     <Label Text="Aptitudes" FontAttributes="Bold"/>
                     <Frame>
                         <StackLayout>
-                            <Label Text="Inteligencia Emocional"/>
-                            <Label Text="Trabajo en Equipo"/>
-                            <Label Text="Capacidad Analitica"/>
+                            <Label Text="Liderazgo"/>
+                            <Label Text="Tenacidad"/>
+                            <Label Text="Responsable"/>
                         </StackLayout>
                     </Frame>
-                    <Label Text="Otros intereses" FontAttributes="Bold"/>
+                    <Label Text="Hobbies" FontAttributes="Bold"/>
                     <Frame>
                         <StackLayout>
-                            <Label Text="Creador de Yincanas"/>
-                            <Label Text="Paseos Ecologicos"/>
-                            <Label Text="Lectura Grupal"/>
+                            <Label Text="Programar"/>
+                            <Label Text="Leer"/>
+                            <Label Text="correr"/>
                         </StackLayout>
                     </Frame>
                 </StackLayout>
             </Frame>
-            <Frame BackgroundColor="#f2f3f3"
+            <Frame BackgroundColor="#FF006400"
                        Margin="20"
                        CornerRadius="20"
                        HasShadow="False">
@@ -73,10 +73,10 @@
                     <Label Text="Experiencia Laboral" FontAttributes="Bold"/>
                     <Frame>
                         <StackLayout>
-                            <Label Text="Trabajador Social" FontAttributes="Italic"/>
-                            <Label Text="* Coordinador y mediador entre los equipos de ayuda psicologica a niños en exclusion social"/>
-                            <Label Text="* Monitor de ejercicios fisicos para adolescentes"/>
-                            <Label Text="* Programar diferentes actividades extracurriculares en los involucrados"/>
+                            <Label Text="Emprendedor" FontAttributes="Italic"/>
+                            <Label Text="* Coordinador General de la pasotral San Jose"/>
+                            <Label Text="* Atleta Olimpico"/>
+                            <Label Text="* Programdor de eventos"/>
                         </StackLayout>
                     </Frame>
                     <Button Text="Regresar"
