@@ -18,16 +18,16 @@ namespace confe
 
         private void Btniniciar_Clicked(object sender, EventArgs e)
         {
-            string name = Name.Text;
-            string ocupation = Ocupacion.Text;
-            string birthday = Birthday.Text;
+            string nombre = Nombre.Text;
+            string ocupacion = Ocupacion.Text;
+            string cumple = Cumple.Text;
             string email = Email.Text;
-            string phone = Phone.Text;
+            string telefono = Telefono.Text;
             string nacionalidad = Nacionalidad.Text;
-            string level = Level.Text;
+            string nivel = Nivel.Text;
             string perfil = Perfil.Text;
-            Navigation.PushAsync(new Curriculum(name, ocupation, birthday, email, phone, 
-                                                nacionalidad, level, perfil));
+            Navigation.PushAsync(new Curriculum(nombre, ocupacion, cumple, email, telefono, 
+                                                nacionalidad, nivel, perfil));
         }
     }
 }
