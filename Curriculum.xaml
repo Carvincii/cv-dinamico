@@ -5,9 +5,9 @@
              NavigationPage.HasNavigationBar="False">
 
     <ScrollView>
-        <StackLayout BackgroundColor="#585858">
+        <StackLayout BackgroundColor="#FF00BFFF">
             <StackLayout>
-                <Image Source="https://i.ibb.co/sbZvPVC/pngegg.png"
+                <Image Source="https://ibb.co/2cQZ3SV"
                        Margin="0,35,0,5"/>
                 <Label x:Name="F_nombre"
                        FontAttributes="Italic"
